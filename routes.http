@@ -1,0 +1,28 @@
+POST http://localhost:3001/videos
+Content-Type: application/json
+
+{
+    "title": "Vídeo node 02",
+    "description": "Descrição do vídeo 02",
+    "duration": 150
+}
+
+
+###
+
+GET http://localhost:3001/videos
+
+###
+
+PUT http://localhost:3001/videos/0fe72cc5-4b7d-4afb-adcd-ee15ad375b45
+Content-Type: application/json
+
+{
+    "title": "Vídeo 200",
+    "description": "Descrição do vídeo 01",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3001/videos/0fe72cc5-4b7d-4afb-adcd-ee15ad375b45
